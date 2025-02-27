@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja", "Loja\Loja\Loja.csproj", "{9E35D5CD-8754-4165-A88F-3DE4D4CA0E31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja.Droid", "Loja\Loja.Droid\Loja.Droid.csproj", "{AFE1D4BD-F493-4315-B147-936DA342D059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja.WinUI", "Loja\Loja.WinUI\Loja.WinUI.csproj", "{C48BBF44-9D5C-4E3F-A87D-6C8C6BAD06E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E35D5CD-8754-4165-A88F-3DE4D4CA0E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E35D5CD-8754-4165-A88F-3DE4D4CA0E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E35D5CD-8754-4165-A88F-3DE4D4CA0E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E35D5CD-8754-4165-A88F-3DE4D4CA0E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE1D4BD-F493-4315-B147-936DA342D059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE1D4BD-F493-4315-B147-936DA342D059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE1D4BD-F493-4315-B147-936DA342D059}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AFE1D4BD-F493-4315-B147-936DA342D059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE1D4BD-F493-4315-B147-936DA342D059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE1D4BD-F493-4315-B147-936DA342D059}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C48BBF44-9D5C-4E3F-A87D-6C8C6BAD06E6}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{C48BBF44-9D5C-4E3F-A87D-6C8C6BAD06E6}.Debug|Any CPU.Build.0 = Debug|x64
+		{C48BBF44-9D5C-4E3F-A87D-6C8C6BAD06E6}.Release|Any CPU.ActiveCfg = Release|x64
+		{C48BBF44-9D5C-4E3F-A87D-6C8C6BAD06E6}.Release|Any CPU.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
