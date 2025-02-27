@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Loja.PagEletrodomestico"
+             Title="PagEletrodomestico">
+    <VerticalStackLayout>
+        <Label x:Name="lblVoltagem" />
+        <Label x:Name="lblPeso" />
+        <Label x:Name="lblAltura" />
+        <Label x:Name="lblLargura" />
+        <Label x:Name="lblProfundidade" />
+        <Label x:Name="lblMarca" />
+        <Label x:Name="lblModelo" />
+        <Label x:Name="lblPreco" />
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Loja.PagLogin"
+             Title="PagLogin">
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Nome" />
+            <Entry Placeholder="Digite seu nome" x:Name="txtNome" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Senha" />
+            <Entry Placeholder="Digite sua senha" x:Name="txtSenha" IsPassword="True" />
+        </HorizontalStackLayout>
+        <Button Text="Entrar" x:Name="btnEntrar" Clicked="btnEntrar_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>
